@@ -1,9 +1,9 @@
 jQuery(window).load(function($) {
 
 	function show_lazy_images() {
-    jQuery('.wp-block img.lazy').each(function() {
-    	jQuery(this).attr('src',jQuery(this).attr('data-src'));
-    });
+    		jQuery('.wp-block img.lazy').each(function() {
+    			jQuery(this).attr('src',jQuery(this).attr('data-src'));
+    		});
 	}
 
 	show_lazy_images();
